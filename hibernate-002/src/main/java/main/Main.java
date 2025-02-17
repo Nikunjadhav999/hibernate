@@ -27,6 +27,7 @@ public class Main {
 			System.out.println("Student not found with id: " + student1.getId());
 		}
 
-		HibernateUtil.shutdown();
+		//HibernateUtil.shutdown();
 	}
+
 }
